@@ -132,13 +132,13 @@ nav ul {
 }
 
 nav ul li a{
-  padding: 10px 10px;
+  padding: 15px 10px;
   display:inline-block;
   border: 5px solid sienna;
   border-radius: 5px;
-  font-size: 10px;
+  font-size: 15px;
   text-align: center;
-  width: 100px;                 
+  width: 150px;                 
 }
 
 nav ul li a:link{

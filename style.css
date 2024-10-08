@@ -71,7 +71,7 @@ section h2 + p{
   text-indent: 1.25rem;
 }
 
-ul li::marker{
+section ul li::marker, aside ul::marker{
   content: "➽";
   color: sienna;
 }
@@ -111,4 +111,9 @@ a[href^="http"]::after{
   margin-left: 0.25em;
   background-size: 100%;
   background-image: url('external-link-52.png');
+}
+
+::selection{
+  background-color: #a66;
+  color: white;
 }

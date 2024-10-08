@@ -43,23 +43,72 @@ header, footer {
 }
 
 /* WRITE YOUR CODE BELOW HERE */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap');
+
 html{
   font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+
+body{
+  line-height: 1.5;
+  letter-spacing: 0.2px;
 }
 
 h1{
+  font-size: 40px;
+  letter-spacing: 5px;
   display: flex;
   justify-content: center;
 }
 
+h2{
+  font-size: 25px;
+  letter-spacing: 1.5px;
+}
+
+section h2 + p{
+  text-indent: 1.25rem;
+}
+
+ul li::marker{
+  content: "➽";
+  color: sienna;
+}
+
 a:link{
-  color:orange
+  color:orange;
+  text-decoration: underline;
 }
 
 a:visited{
-  color:brown
+  color:brown;
+  text-decoration: underline;
 }
 
 a:hover{
-  color:deeppink
+  color:deeppink;
+  text-decoration: none;
+}
+
+a:focus{
+  color:darkblue;
+  text-decoration: none;
+  outline: none;
+}
+
+a:active{
+  color:crimson;
+  background-color: lightyellow;
+  font-weight: bold;
+}
+
+a[href^="http"]::after{
+  content: "";
+  display: inline-block;
+  width: 0.8em;
+  height: 0.8em;
+  margin-left: 0.25em;
+  background-size: 100%;
+  background-image: url('external-link-52.png');
 }

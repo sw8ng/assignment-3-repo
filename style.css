@@ -101,6 +101,7 @@ a:active{
   color:crimson;
   background-color: lightyellow;
   font-weight: bold;
+  letter-spacing: -0.06em;
 }
 
 a[href^="http"]::after{

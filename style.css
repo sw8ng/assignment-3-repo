@@ -47,7 +47,7 @@ html{
   font-family: "Montserrat", sans-serif;
 }
 
-header{
+h1{
   display: flex;
   justify-content: center;
 }

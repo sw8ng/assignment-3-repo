@@ -56,14 +56,14 @@ body{
 }
 
 h1{
-  font-size: 40px;
+  font-size: 35px;
   letter-spacing: 5px;
   display: flex;
   justify-content: center;
 }
 
 h2{
-  font-size: 25px;
+  font-size: 15px;
   letter-spacing: 1.5px;
 }
 

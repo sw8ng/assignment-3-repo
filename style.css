@@ -43,4 +43,11 @@ header, footer {
 }
 
 /* WRITE YOUR CODE BELOW HERE */
+html{
+  font-family: "Montserrat", sans-serif;
+}
 
+header{
+  display: flex;
+  justify-content: center;
+}
